@@ -1,3 +1,4 @@
+4)swap numbers without temporary variable
 num1=int(input("eneter  number1"))
 num2=int(input("eneter  number2"))
 print("entered number1 is",num1)
