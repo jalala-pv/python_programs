@@ -1,4 +1,0 @@
-integer=[0,3,-2,-7,-5,9,-6,4]
-for x in integer:
-    if(x>0):
-        print(x)
