@@ -1,9 +1,9 @@
-a=2
-b=5
-c=4
+a=int(input("enter number a"))
+b=int(input("enter number b"))
+c=int(input("enter number c"))
 if(a>b and a>c):
     print("value of a=",a,"is largest")
-elif(b>a and b>c):
+elif(b>c and b>c):
      print("value of b=",b,"is largest")
 else:
     print("value of c=",c,"is largest")
