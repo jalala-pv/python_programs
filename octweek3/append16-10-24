@@ -1,8 +1,7 @@
-
 list=[]
-while True:
-    element=input("enter an element to add to the list or type stop to end")
-    if element.lower()=='stop':
-        break
-    list.append(element)
-print("your list",list)
+x=int(input("enter the no of elements"))
+print("enter the elemnts of list")
+for i in range(x):
+        element=int(input())
+        list.append(element)
+print(list)
