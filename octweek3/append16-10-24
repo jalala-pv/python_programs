@@ -1,0 +1,8 @@
+
+list=[]
+while True:
+    element=input("enter an element to add to the list or type stop to end")
+    if element.lower()=='stop':
+        break
+    list.append(element)
+print("your list",list)
