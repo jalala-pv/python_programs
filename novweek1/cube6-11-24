@@ -1,0 +1,5 @@
+
+num=int(input("enter a number"))
+x=lambda num:num*num*num
+print("cube of",num,"is",x(num))
+
