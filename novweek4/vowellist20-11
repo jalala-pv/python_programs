@@ -1,0 +1,11 @@
+
+def extract_vowels(word):
+    vowels = "aeiouAEIOU"
+    vowel_list = [ ]
+    for char in word:
+        if char in vowels:
+            vowel_list.append(char)
+    return vowel_list
+word = input("Enter a word: ")
+result = extract_vowels(word)
+print("List of vowels:", result)
