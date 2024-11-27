@@ -1,0 +1,12 @@
+from math_operations.basic_operations import arithmetic
+from math_operations.geometry import area
+print("arithmetic operations")
+print("5+3=",arithmetic.add(5,3))
+print("5-3=",arithmetic.subtract(5,3))
+print("5*3=",arithmetic.multiply(5,3))
+print("8/2=",arithmetic.divide(8,2))
+print("8/0=",arithmetic.divide(8,0))
+print("area calculation")
+print("rectangle area(length=5,width=3)=",area.rectangle(5,3))
+print("circle area(radius=7)=",area.circle(7))
+print("triangle area(base=10,width=3)=",area.triangle(10,3))
