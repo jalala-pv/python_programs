@@ -1,0 +1,7 @@
+def rectangle(length,width):
+    return length*width
+def circle(radius):
+    from math import pi
+    return pi*radius*radius
+def triangle(base,height):
+    return 0.5*base*height
