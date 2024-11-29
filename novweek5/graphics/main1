@@ -1,0 +1,8 @@
+from graphics.rectangles import rectanglearea as rect_area, rectangleperimeter as rect_perimeter
+from graphics.circles import circlearea as circ_area, circleperimeter as circ_perimeter
+length, breadth = 5, 3
+radius = 7
+print("Rectangle Area:", rect_area(length, breadth))
+print("Rectangle Perimeter:", rect_perimeter(length, breadth))
+print("Circle Area:", circ_area(radius))
+print("Circle Perimeter:", circ_perimeter(radius))
