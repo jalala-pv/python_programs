@@ -1,0 +1,17 @@
+from graphics.rectangles import *
+from graphics.circles import *
+from graphics.graphics_3d.cuboids import *
+from graphics.graphics_3d.spheres import *
+length, breadth = 5, 3
+radius = 7
+side = 4
+height = 6
+print("Rectangle Area:", rectanglearea(length, breadth))
+print("Rectangle Perimeter:", rectangleperimeter(length, breadth))
+print("Circle Area:", circlearea(radius))
+print("Circle Perimeter:", circleperimeter(radius))
+print("Cuboid Area:", cuboidarea(length, breadth, height))
+print("Cuboid Perimeter:", cuboidperimeter(length, breadth, height))
+print("sphere Area:", spherearea(side)) 
+print("spher Perimeter:", sphereperimeter(side))
+
