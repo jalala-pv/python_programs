@@ -1,0 +1,10 @@
+from graphics.graphics_3d.cuboids import cuboidarea as cuboid_area, cuboidperimeter as cuboid_perimeter
+from graphics.graphics_3d.spheres import spherearea as sphere_area, sphereperimeter as sphere_perimeter
+length, breadth, height = 4, 5, 6
+side = 4
+print("Cuboid Area:", cuboid_area(length, breadth, height))
+print("Cuboid Perimeter:", cuboid_perimeter(length, breadth, height))
+print("sphere Area:", sphere_area(side))
+print("sphere Perimeter:", sphere_perimeter(side))
+
+
